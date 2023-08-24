@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* background-image: url("bg.jpeg");
+  background-size: cover; */
+  height: 10vh;
+  overflow: hidden;
+}
+.taskBar {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f3f3;
+  z-index: 3;
+}
+
+.right {
+  position: absolute;
+  right: 0;
+}
+.start {
+  width: 100%;
+  position: absolute;
+  bottom: -650px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  text-align: center;
+  border-radius: 20px;
+  transition: all 0.5s ease-in;
+}
+.start img {
+  border-radius: 10px;
+}
